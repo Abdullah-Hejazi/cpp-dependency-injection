@@ -1,7 +1,5 @@
 #include <iostream>
 
-#define ServiceContainer Container* container = new Container()
-
 class Payment {
     public:
         virtual void Pay() {}
